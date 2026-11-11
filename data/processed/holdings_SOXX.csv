@@ -1,0 +1,35 @@
+﻿Ticker,Name,Sector,Asset Class,Market Value,Weight (%),Notional Value,Quantity,Price,Location
+"""AMD""","""ADVANCED MICRO DEVICES""","""Information Technology""","""Equity""","""3",326,145,"111.60""","""8.88""","""3"
+"""NVDA""","""NVIDIA""","""Information Technology""","""Equity""","""3",184,500,"372.00""","""8.50""","""3"
+"""AVGO""","""BROADCOM INC""","""Information Technology""","""Equity""","""3",047,691,"644.31""","""8.14""","""3"
+"""MU""","""MICRON TECHNOLOGY""","""Information Technology""","""Equity""","""2",650,651,"820.53""","""7.08""","""2"
+"""INTC""","""INTEL CORPORATION""","""Information Technology""","""Equity""","""2",259,964,"861.00""","""6.03""","""2"
+"""TXN""","""TEXAS INSTRUMENT""","""Information Technology""","""Equity""","""2",063,674,"400.90""","""5.51""","""2"
+"""ADI""","""ANALOG DEVICES""","""Information Technology""","""Equity""","""1",929,786,"175.20""","""5.15""","""1"
+"""QCOM""","""QUALCOMM""","""Information Technology""","""Equity""","""1",779,865,"213.50""","""4.75""","""1"
+"""NXPI""","""NXP SEMICONDUCTORS NV""","""Information Technology""","""Equity""","""1",600,582,"636.75""","""4.27""","""1"
+"""MPWR""","""MONOLITHIC POWER SYSTEMS INC""","""Information Technology""","""Equity""","""1",435,394,"326.65""","""3.83""","""1"
+"""KLAC""","""KLA""","""Information Technology""","""Equity""","""1",432,127,"012.80""","""3.82""","""1"
+"""AMAT""","""APPLIED MATERIAL INC""","""Information Technology""","""Equity""","""1",348,202,"008.25""","""3.60""","""1"
+"""TSM""","""TAIWAN SEMICONDUCTOR MANUFACTURING""","""Information Technology""","""Equity""","""1",259,437,"786.20""","""3.36""","""1"
+"""MRVL""","""MARVELL TECHNOLOGY""","""Information Technology""","""Equity""","""1",221,421,"590.00""","""3.26""","""1"
+"""LRCX""","""LAM RESEARCH""","""Information Technology""","""Equity""","""1",189,145,"494.40""","""3.17""","""1"
+"""SKHY""","""SK HYNIX AMERICAN DEPOSITARY SHARE""","""Information Technology""","""Equity""","""1",115,193,"792.30""","""2.98""","""1"
+"""MCHP""","""MICROCHIP TECHNOLOGY INC""","""Information Technology""","""Equity""","""925",864,"357.90""","""2.47""","""925",864
+"""TER""","""TERADYNE""","""Information Technology""","""Equity""","""883",735,"149.88""","""2.36""","""883",735
+"""ALAB""","""ASTERA LABS""","""Information Technology""","""Equity""","""682",987,"622.07""","""1.82""","""682",987
+"""ON""","""ON SEMICONDUCTOR CORP""","""Information Technology""","""Equity""","""652",232,"199.49""","""1.74""","""652",232
+"""ASML""","""ASML HOLDING ADR REPRESENTING""","""Information Technology""","""Equity""","""592",435,"488.50""","""1.58""","""592",435
+"""CRDO""","""CREDO TECHNOLOGY GROUP HOLDING LTD""","""Information Technology""","""Equity""","""507",941,"432.44""","""1.36""","""507",941
+"""ENTG""","""ENTEGRIS INC""","""Information Technology""","""Equity""","""507",162,"642.00""","""1.35""","""507",162
+"""TSEM""","""TOWER SEMICONDUCTOR""","""Information Technology""","""Equity""","""368",106,"657.11""","""0.98""","""368",106
+"""MTSI""","""MACOM TECHNOLOGY SOLUTIONS""","""Information Technology""","""Equity""","""362",441,"437.65""","""0.97""","""362",441
+"""ASX""","""ASE TECHNOLOGY HOLDING ADR REPRESE""","""Information Technology""","""Equity""","""322",869,"639.52""","""0.86""","""322",869
+"""CBRS""","""CEREBRAS SYSTEMS INC CLASS A""","""Information Technology""","""Equity""","""210",037,"761.17""","""0.56""","""210",037
+"""UMC""","""UNITED MICRO ELECTRONICS ADR REP""","""Information Technology""","""Equity""","""200",484,"474.96""","""0.54""","""200",484
+"""STM""","""STMICROELECTRONICS ADR""","""Information Technology""","""Equity""","""168",778,"642.65""","""0.45""","""168",778
+"""ARM""","""ARM HOLDINGS AMERICAN DEPOSITARY S""","""Information Technology""","""Equity""","""154",998,"416.96""","""0.41""","""154",998
+"""XTSLA""","""BLK CSH FND TREASURY SL AGENCY""","""Cash and/or Derivatives""","""Money Market""","""54",553,"457.68""","""0.15""","""54",553
+"""USD""","""USD CASH""","""Cash and/or Derivatives""","""Cash""","""10",856,"955.47""","""0.03""","""10",856
+"""WFFUT""","""CASH COLLATERAL USD WFFUT""","""Cash and/or Derivatives""","""Cash Collateral and Margins""","""4",578,"000.00""","""0.01""","""4",578
+"""IXTZ6""","""EMINI TECHNOLOGY SELECT SECTOR DEC""","""Cash and/or Derivatives""","""Futures""","""0.00""","""0.00""","""74",211,"620.00""","""226.00"""

@@ -1,0 +1,510 @@
+﻿Ticker,Name,Type,Sector,Asset Class,Market Value,Notional Value,Quantity,Price,Location
+"""AAPL""","""APPLE""","""EQUITY""","""Information Technology""","""Equity""","""67",347,967,"210.07""","""67"
+"""NVDA""","""NVIDIA""","""EQUITY""","""Information Technology""","""Equity""","""58",925,443,"785.60""","""58"
+"""MSFT""","""MICROSOFT""","""EQUITY""","""Information Technology""","""Equity""","""53",359,006,"530.84""","""53"
+"""AMZN""","""AMAZON.COM INC""","""EQUITY""","""Consumer Discretionary""","""Equity""","""34",246,016,"401.08""","""34"
+"""GOOGL""","""ALPHABET CLASS A""","""EQUITY""","""Communication""","""Equity""","""22",232,471,"118.69""","""22"
+"""AVGO""","""BROADCOM INC""","""EQUITY""","""Information Technology""","""Equity""","""18",596,899,"855.70""","""18"
+"""GOOG""","""ALPHABET CLASS C""","""EQUITY""","""Communication""","""Equity""","""17",955,948,"626.38""","""17"
+"""META""","""META PLATFORMS CLASS A""","""EQUITY""","""Communication""","""Equity""","""17",890,290,"840.52""","""17"
+"""LLY""","""ELI LILLY""","""EQUITY""","""Health Care""","""Equity""","""14",641,810,"139.79""","""14"
+"""BRK B""","""BERKSHIRE HATHAWAY INC CLASS B""","""EQUITY""","""Financials""","""Equity""","""14",292,041,"614.40""","""14"
+"""TSLA""","""TESLA INC""","""EQUITY""","""Consumer Discretionary""","""Equity""","""12",987,285,"201.41""","""12"
+"""JPM""","""JPMORGAN CHASE & CO""","""EQUITY""","""Financials""","""Equity""","""12",023,308,"332.76""","""12"
+"""MU""","""MICRON TECHNOLOGY""","""EQUITY""","""Information Technology""","""Equity""","""9",939,857,"519.41""","""9"
+"""V""","""VISA CLASS A""","""EQUITY""","""Financials""","""Equity""","""9",655,789,"336.48""","""9"
+"""XOM""","""EXXONMOBIL HOLDINGS CORP""","""EQUITY""","""Energy""","""Equity""","""9",113,552,"507.70""","""9"
+"""AMD""","""ADVANCED MICRO DEVICES""","""EQUITY""","""Information Technology""","""Equity""","""8",851,760,"758.80""","""8"
+"""JNJ""","""JOHNSON & JOHNSON""","""EQUITY""","""Health Care""","""Equity""","""8",799,326,"384.00""","""8"
+"""WMT""","""WALMART""","""EQUITY""","""Consumer Staples""","""Equity""","""7",631,808,"722.96""","""7"
+"""MA""","""MASTERCARD CLASS A""","""EQUITY""","""Financials""","""Equity""","""7",111,379,"036.88""","""7"
+"""ABBV""","""ABBVIE""","""EQUITY""","""Health Care""","""Equity""","""6",829,531,"465.44""","""6"
+"""COST""","""COSTCO WHOLESALE CORP""","""EQUITY""","""Consumer Staples""","""Equity""","""6",336,191,"011.79""","""6"
+"""CVX""","""CHEVRON""","""EQUITY""","""Energy""","""Equity""","""5",640,848,"296.66""","""5"
+"""PG""","""PROCTER & GAMBLE""","""EQUITY""","""Consumer Staples""","""Equity""","""5",207,943,"204.60""","""5"
+"""CSCO""","""CISCO SYSTEMS INC""","""EQUITY""","""Information Technology""","""Equity""","""5",058,572,"846.32""","""5"
+"""KO""","""COCA-COLA""","""EQUITY""","""Consumer Staples""","""Equity""","""4",970,356,"740.48""","""4"
+"""MRK""","""MERCK & CO INC""","""EQUITY""","""Health Care""","""Equity""","""4",860,823,"690.20""","""4"
+"""PLTR""","""PALANTIR TECHNOLOGIES CLASS A""","""EQUITY""","""Information Technology""","""Equity""","""4",781,214,"594.64""","""4"
+"""UNH""","""UNITEDHEALTH GROUP""","""EQUITY""","""Health Care""","""Equity""","""4",762,540,"852.16""","""4"
+"""HD""","""HOME DEPOT""","""EQUITY""","""Consumer Discretionary""","""Equity""","""4",678,553,"624.72""","""4"
+"""GE""","""GE AEROSPACE""","""EQUITY""","""Industrials""","""Equity""","""4",378,468,"996.98""","""4"
+"""BAC""","""BANK OF AMERICA""","""EQUITY""","""Financials""","""Equity""","""4",338,932,"423.20""","""4"
+"""PM""","""PHILIP MORRIS INTERNATIONAL""","""EQUITY""","""Consumer Staples""","""Equity""","""4",211,001,"002.00""","""4"
+"""NFLX""","""NETFLIX""","""EQUITY""","""Communication""","""Equity""","""3",660,290,"128.44""","""3"
+"""INTC""","""INTEL CORPORATION""","""EQUITY""","""Information Technology""","""Equity""","""3",481,140,"522.75""","""3"
+"""RTX""","""RTX""","""EQUITY""","""Industrials""","""Equity""","""3",467,488,"616.28""","""3"
+"""PANW""","""PALO ALTO NETWORKS""","""EQUITY""","""Information Technology""","""Equity""","""3",438,608,"030.88""","""3"
+"""WFC""","""WELLS FARGO""","""EQUITY""","""Financials""","""Equity""","""3",418,072,"057.50""","""3"
+"""CAT""","""CATERPILLAR INC""","""EQUITY""","""Industrials""","""Equity""","""3",412,325,"260.68""","""3"
+"""TXN""","""TEXAS INSTRUMENT""","""EQUITY""","""Information Technology""","""Equity""","""3",405,943,"690.35""","""3"
+"""AMAT""","""APPLIED MATERIAL INC""","""EQUITY""","""Information Technology""","""Equity""","""3",398,602,"692.00""","""3"
+"""GS""","""GOLDMAN SACHS GROUP""","""EQUITY""","""Financials""","""Equity""","""3",392,453,"791.80""","""3"
+"""TMO""","""THERMO FISHER SCIENTIFIC""","""EQUITY""","""Health Care""","""Equity""","""3",356,066,"791.88""","""3"
+"""AMGN""","""AMGEN INC""","""EQUITY""","""Health Care""","""Equity""","""3",336,536,"579.84""","""3"
+"""LIN""","""LINDE PLC""","""EQUITY""","""Materials""","""Equity""","""3",221,714,"290.32""","""3"
+"""IBM""","""INTERNATIONAL BUSINESS MACHINES CO""","""EQUITY""","""Information Technology""","""Equity""","""3",121,579,"020.06""","""3"
+"""LRCX""","""LAM RESEARCH""","""EQUITY""","""Information Technology""","""Equity""","""3",107,299,"860.40""","""3"
+"""ORCL""","""ORACLE""","""EQUITY""","""Information Technology""","""Equity""","""3",030,526,"837.04""","""3"
+"""CRWD""","""CROWDSTRIKE HOLDINGS CLASS A""","""EQUITY""","""Information Technology""","""Equity""","""2",965,615,"568.40""","""2"
+"""MS""","""MORGAN STANLEY""","""EQUITY""","""Financials""","""Equity""","""2",919,854,"959.48""","""2"
+"""GILD""","""GILEAD SCIENCES""","""EQUITY""","""Health Care""","""Equity""","""2",785,955,"646.11""","""2"
+"""GEV""","""GE VERNOVA""","""EQUITY""","""Industrials""","""Equity""","""2",751,585,"982.73""","""2"
+"""DIS""","""WALT DISNEY""","""EQUITY""","""Communication""","""Equity""","""2",713,866,"421.32""","""2"
+"""C""","""CITIGROUP""","""EQUITY""","""Financials""","""Equity""","""2",664,114,"266.15""","""2"
+"""MCD""","""MCDONALDS CORP""","""EQUITY""","""Consumer Discretionary""","""Equity""","""2",638,112,"473.92""","""2"
+"""ABT""","""ABBOTT LABORATORIES""","""EQUITY""","""Health Care""","""Equity""","""2",635,682,"788.80""","""2"
+"""PEP""","""PEPSICO""","""EQUITY""","""Consumer Staples""","""Equity""","""2",611,693,"039.71""","""2"
+"""VZ""","""VERIZON COMMUNICATIONS INC""","""EQUITY""","""Communication""","""Equity""","""2",569,259,"878.00""","""2"
+"""NEE""","""NEXTERA ENERGY""","""EQUITY""","""Utilities""","""Equity""","""2",468,286,"224.25""","""2"
+"""CRM""","""SALESFORCE""","""EQUITY""","""Information Technology""","""Equity""","""2",442,380,"735.94""","""2"
+"""UNP""","""UNION PACIFIC""","""EQUITY""","""Industrials""","""Equity""","""2",373,320,"725.00""","""2"
+"""WELL""","""WELLTOWER""","""EQUITY""","""Real Estate""","""Equity""","""2",371,795,"760.34""","""2"
+"""APH""","""AMPHENOL CORP CLASS A""","""EQUITY""","""Information Technology""","""Equity""","""2",368,727,"454.96""","""2"
+"""ADI""","""ANALOG DEVICES""","""EQUITY""","""Information Technology""","""Equity""","""2",357,756,"671.01""","""2"
+"""AXP""","""AMERICAN EXPRESS""","""EQUITY""","""Financials""","""Equity""","""2",295,164,"969.06""","""2"
+"""KLAC""","""KLA""","""EQUITY""","""Information Technology""","""Equity""","""2",273,907,"660.20""","""2"
+"""BLK""","""BLACKROCK""","""EQUITY""","""Financials""","""Equity""","""2",260,847,"072.14""","""2"
+"""PFE""","""PFIZER""","""EQUITY""","""Health Care""","""Equity""","""2",250,642,"772.25""","""2"
+"""QCOM""","""QUALCOMM""","""EQUITY""","""Information Technology""","""Equity""","""2",244,780,"854.25""","""2"
+"""ANET""","""ARISTA NETWORKS""","""EQUITY""","""Information Technology""","""Equity""","""2",233,970,"396.64""","""2"
+"""DE""","""DEERE""","""EQUITY""","""Industrials""","""Equity""","""2",232,752,"534.87""","""2"
+"""ISRG""","""INTUITIVE SURGICAL""","""EQUITY""","""Health Care""","""Equity""","""2",219,293,"969.36""","""2"
+"""COP""","""CONOCOPHILLIPS""","""EQUITY""","""Energy""","""Equity""","""2",181,973,"831.18""","""2"
+"""ACN""","""ACCENTURE PLC CLASS A""","""EQUITY""","""Information Technology""","""Equity""","""2",175,641,"512.24""","""2"
+"""TJX""","""TJX""","""EQUITY""","""Consumer Discretionary""","""Equity""","""2",052,801,"732.32""","""2"
+"""SCHW""","""CHARLES SCHWAB""","""EQUITY""","""Financials""","""Equity""","""2",017,884,"974.76""","""2"
+"""T""","""AT&T""","""EQUITY""","""Communication""","""Equity""","""2",004,788,"499.06""","""2"
+"""SPGI""","""S&P GLOBAL""","""EQUITY""","""Financials""","""Equity""","""1",912,893,"909.84""","""1"
+"""DHR""","""DANAHER""","""EQUITY""","""Health Care""","""Equity""","""1",898,748,"831.82""","""1"
+"""UBER""","""UBER TECHNOLOGIES""","""EQUITY""","""Industrials""","""Equity""","""1",883,686,"870.18""","""1"
+"""VRTX""","""VERTEX PHARMACEUTICALS""","""EQUITY""","""Health Care""","""Equity""","""1",843,652,"072.50""","""1"
+"""BA""","""BOEING""","""EQUITY""","""Industrials""","""Equity""","""1",828,065,"127.50""","""1"
+"""PGR""","""PROGRESSIVE""","""EQUITY""","""Financials""","""Equity""","""1",817,696,"395.00""","""1"
+"""CB""","""CHUBB""","""EQUITY""","""Financials""","""Equity""","""1",749,402,"142.88""","""1"
+"""MO""","""ALTRIA GROUP INC""","""EQUITY""","""Consumer Staples""","""Equity""","""1",736,879,"271.30""","""1"
+"""BMY""","""BRISTOL MYERS SQUIBB""","""EQUITY""","""Health Care""","""Equity""","""1",729,079,"627.83""","""1"
+"""MDT""","""MEDTRONIC PLC""","""EQUITY""","""Health Care""","""Equity""","""1",720,753,"912.12""","""1"
+"""LOW""","""LOWES COMPANIES INC""","""EQUITY""","""Consumer Discretionary""","""Equity""","""1",708,428,"496.32""","""1"
+"""ETN""","""EATON PLC""","""EQUITY""","""Industrials""","""Equity""","""1",703,068,"163.82""","""1"
+"""BKNG""","""BOOKING HOLDINGS""","""EQUITY""","""Consumer Discretionary""","""Equity""","""1",699,795,"960.32""","""1"
+"""NEM""","""NEWMONT""","""EQUITY""","""Materials""","""Equity""","""1",691,285,"744.61""","""1"
+"""COF""","""CAPITAL ONE FINANCIAL CORP""","""EQUITY""","""Financials""","""Equity""","""1",676,731,"580.16""","""1"
+"""MCK""","""MCKESSON CORP""","""EQUITY""","""Health Care""","""Equity""","""1",675,890,"832.00""","""1"
+"""PLD""","""PROLOGIS REIT""","""EQUITY""","""Real Estate""","""Equity""","""1",638,022,"922.10""","""1"
+"""ADP""","""AUTOMATIC DATA PROCESSING INC""","""EQUITY""","""Industrials""","""Equity""","""1",636,026,"666.72""","""1"
+"""SBUX""","""STARBUCKS CORP""","""EQUITY""","""Consumer Discretionary""","""Equity""","""1",622,698,"913.28""","""1"
+"""SNDK""","""SANDISK""","""EQUITY""","""Information Technology""","""Equity""","""1",578,709,"302.36""","""1"
+"""LMT""","""LOCKHEED MARTIN""","""EQUITY""","""Industrials""","""Equity""","""1",568,987,"388.80""","""1"
+"""SYK""","""STRYKER""","""EQUITY""","""Health Care""","""Equity""","""1",568,246,"107.12""","""1"
+"""MRVL""","""MARVELL TECHNOLOGY""","""EQUITY""","""Information Technology""","""Equity""","""1",568,197,"252.90""","""1"
+"""PH""","""PARKER-HANNIFIN""","""EQUITY""","""Industrials""","""Equity""","""1",508,462,"644.08""","""1"
+"""CME""","""CME GROUP CLASS A""","""EQUITY""","""Financials""","""Equity""","""1",481,298,"669.92""","""1"
+"""SO""","""SOUTHERN""","""EQUITY""","""Utilities""","""Equity""","""1",439,709,"202.36""","""1"
+"""MPC""","""MARATHON PETROLEUM""","""EQUITY""","""Energy""","""Equity""","""1",420,746,"767.16""","""1"
+"""NOW""","""SERVICENOW""","""EQUITY""","""Information Technology""","""Equity""","""1",418,935,"508.52""","""1"
+"""STX""","""SEAGATE TECHNOLOGY HOLDINGS PLC""","""EQUITY""","""Information Technology""","""Equity""","""1",417,771,"607.16""","""1"
+"""CVS""","""CVS HEALTH""","""EQUITY""","""Health Care""","""Equity""","""1",394,711,"172.03""","""1"
+"""DUK""","""DUKE ENERGY CORP""","""EQUITY""","""Utilities""","""Equity""","""1",359,918,"628.32""","""1"
+"""VLO""","""VALERO ENERGY CORP""","""EQUITY""","""Energy""","""Equity""","""1",355,945,"893.72""","""1"
+"""BNY""","""BANK OF NEW YORK MELLON CORP""","""EQUITY""","""Financials""","""Equity""","""1",341,796,"322.09""","""1"
+"""MRSH""","""MARSH""","""EQUITY""","""Financials""","""Equity""","""1",340,048,"745.36""","""1"
+"""PSX""","""PHILLIPS 66""","""EQUITY""","""Energy""","""Equity""","""1",321,717,"360.64""","""1"
+"""EQIX""","""EQUINIX REIT""","""EQUITY""","""Real Estate""","""Equity""","""1",319,455,"153.35""","""1"
+"""ADBE""","""ADOBE INC""","""EQUITY""","""Information Technology""","""Equity""","""1",313,475,"665.56""","""1"
+"""ICE""","""INTERCONTINENTAL EXCHANGE INC""","""EQUITY""","""Financials""","""Equity""","""1",309,750,"026.00""","""1"
+"""INTU""","""INTUIT""","""EQUITY""","""Information Technology""","""Equity""","""1",301,443,"474.44""","""1"
+"""MMM""","""3M""","""EQUITY""","""Industrials""","""Equity""","""1",298,400,"445.65""","""1"
+"""WDC""","""WESTERN DIGITAL CORP""","""EQUITY""","""Information Technology""","""Equity""","""1",293,765,"973.17""","""1"
+"""APP""","""APPLOVIN CLASS A""","""EQUITY""","""Communication""","""Equity""","""1",293,697,"056.00""","""1"
+"""DELL""","""DELL TECHNOLOGIES INC CLASS C""","""EQUITY""","""Information Technology""","""Equity""","""1",284,532,"570.64""","""1"
+"""CSX""","""CSX""","""EQUITY""","""Industrials""","""Equity""","""1",262,540,"802.51""","""1"
+"""ELV""","""ELEVANCE HEALTH INC""","""EQUITY""","""Health Care""","""Equity""","""1",256,191,"632.00""","""1"
+"""USB""","""US BANCORP""","""EQUITY""","""Financials""","""Equity""","""1",248,223,"686.75""","""1"
+"""EMR""","""EMERSON ELECTRIC""","""EQUITY""","""Industrials""","""Equity""","""1",216,181,"004.08""","""1"
+"""GD""","""GENERAL DYNAMICS CORP""","""EQUITY""","""Industrials""","""Equity""","""1",213,306,"537.95""","""1"
+"""PNC""","""PNC FINANCIAL SERVICES GROUP""","""EQUITY""","""Financials""","""Equity""","""1",212,929,"512.75""","""1"
+"""AMT""","""AMERICAN TOWER REIT""","""EQUITY""","""Real Estate""","""Equity""","""1",212,006,"648.21""","""1"
+"""BX""","""BLACKSTONE""","""EQUITY""","""Financials""","""Equity""","""1",205,938,"335.06""","""1"
+"""WM""","""WASTE MANAGEMENT INC""","""EQUITY""","""Industrials""","""Equity""","""1",202,574,"365.77""","""1"
+"""MRNA""","""MODERNA""","""EQUITY""","""Health Care""","""Equity""","""1",202,085,"671.30""","""1"
+"""MAR""","""MARRIOTT INTERNATIONAL CLASS A""","""EQUITY""","""Consumer Discretionary""","""Equity""","""1",196,355,"112.96""","""1"
+"""REGN""","""REGENERON PHARMACEUTICALS""","""EQUITY""","""Health Care""","""Equity""","""1",186,892,"748.60""","""1"
+"""CMCSA""","""COMCAST CLASS A""","""EQUITY""","""Communication""","""Equity""","""1",183,985,"758.05""","""1"
+"""TT""","""TRANE TECHNOLOGIES PLC""","""EQUITY""","""Industrials""","""Equity""","""1",157,737,"567.68""","""1"
+"""CDNS""","""CADENCE DESIGN SYSTEMS""","""EQUITY""","""Information Technology""","""Equity""","""1",149,974,"272.23""","""1"
+"""MSI""","""MOTOROLA SOLUTIONS INC""","""EQUITY""","""Information Technology""","""Equity""","""1",147,228,"645.68""","""1"
+"""MDLZ""","""MONDELEZ INTERNATIONAL CLASS A""","""EQUITY""","""Consumer Staples""","""Equity""","""1",143,492,"798.24""","""1"
+"""SNPS""","""SYNOPSYS""","""EQUITY""","""Information Technology""","""Equity""","""1",130,436,"042.84""","""1"
+"""TRV""","""TRAVELERS COMPANIES""","""EQUITY""","""Financials""","""Equity""","""1",126,724,"994.23""","""1"
+"""UPS""","""UNITED PARCEL SERVICE INC CLASS B""","""EQUITY""","""Industrials""","""Equity""","""1",115,665,"738.88""","""1"
+"""HLT""","""HILTON WORLDWIDE HOLDINGS""","""EQUITY""","""Consumer Discretionary""","""Equity""","""1",115,488,"502.80""","""1"
+"""FCX""","""FREEPORT MCMORAN INC""","""EQUITY""","""Materials""","""Equity""","""1",114,836,"650.10""","""1"
+"""GLW""","""CORNING""","""EQUITY""","""Information Technology""","""Equity""","""1",099,014,"599.55""","""1"
+"""RCL""","""ROYAL CARIBBEAN GROUP""","""EQUITY""","""Consumer Discretionary""","""Equity""","""1",076,290,"349.88""","""1"
+"""HWM""","""HOWMET AEROSPACE""","""EQUITY""","""Industrials""","""Equity""","""1",073,522,"341.92""","""1"
+"""CI""","""CIGNA""","""EQUITY""","""Health Care""","""Equity""","""1",068,117,"411.24""","""1"
+"""SHW""","""SHERWIN WILLIAMS""","""EQUITY""","""Materials""","""Equity""","""1",067,818,"780.65""","""1"
+"""JCI""","""JOHNSON CONTROLS INTERNATIONAL PLC""","""EQUITY""","""Industrials""","""Equity""","""1",067,713,"650.36""","""1"
+"""CEG""","""CONSTELLATION ENERGY CORP""","""EQUITY""","""Utilities""","""Equity""","""1",058,781,"129.15""","""1"
+"""CL""","""COLGATE-PALMOLIVE""","""EQUITY""","""Consumer Staples""","""Equity""","""1",054,868,"395.14""","""1"
+"""WMB""","""WILLIAMS""","""EQUITY""","""Energy""","""Equity""","""1",053,730,"454.50""","""1"
+"""GM""","""GENERAL MOTORS""","""EQUITY""","""Consumer Discretionary""","""Equity""","""1",050,968,"253.97""","""1"
+"""CTAS""","""CINTAS""","""EQUITY""","""Industrials""","""Equity""","""1",044,754,"907.58""","""1"
+"""TMUS""","""T MOBILE US INC""","""EQUITY""","""Communication""","""Equity""","""1",039,361,"604.96""","""1"
+"""ECL""","""ECOLAB""","""EQUITY""","""Materials""","""Equity""","""1",034,547,"349.99""","""1"
+"""MCO""","""MOODYS CORP""","""EQUITY""","""Financials""","""Equity""","""1",029,068,"016.48""","""1"
+"""PWR""","""QUANTA SERVICES INC""","""EQUITY""","""Industrials""","""Equity""","""1",026,152,"457.74""","""1"
+"""EOG""","""EOG RESOURCES""","""EQUITY""","""Energy""","""Equity""","""1",019,023,"830.54""","""1"
+"""FTNT""","""FORTINET""","""EQUITY""","""Information Technology""","""Equity""","""1",012,395,"687.80""","""1"
+"""ROST""","""ROSS STORES INC""","""EQUITY""","""Consumer Discretionary""","""Equity""","""1",011,739,"284.72""","""1"
+"""HCA""","""HCA HEALTHCARE""","""EQUITY""","""Health Care""","""Equity""","""1",001,707,"159.80""","""1"
+"""ORLY""","""OREILLY AUTOMOTIVE INC""","""EQUITY""","""Consumer Discretionary""","""Equity""","""992",373,"183.06""","""992",373
+"""ITW""","""ILLINOIS TOOL INC""","""EQUITY""","""Industrials""","""Equity""","""991",769,"781.95""","""991",769
+"""AJG""","""ARTHUR J GALLAGHER""","""EQUITY""","""Financials""","""Equity""","""990",111,"335.14""","""990",111
+"""SLB""","""SLB""","""EQUITY""","""Energy""","""Equity""","""987",824,"979.92""","""987",824
+"""NSC""","""NORFOLK SOUTHERN CORP""","""EQUITY""","""Industrials""","""Equity""","""987",477,"080.10""","""987",477
+"""SPG""","""SIMON PROPERTY GROUP REIT INC""","""EQUITY""","""Real Estate""","""Equity""","""982",841,"185.35""","""982",841
+"""AON""","""AON PLC CLASS A""","""EQUITY""","""Financials""","""Equity""","""979",540,"413.60""","""979",540
+"""TGT""","""TARGET CORP""","""EQUITY""","""Consumer Staples""","""Equity""","""961",906,"496.85""","""961",906
+"""ABNB""","""AIRBNB CLASS A""","""EQUITY""","""Consumer Discretionary""","""Equity""","""957",019,"529.25""","""957",019
+"""NOC""","""NORTHROP GRUMMAN CORP""","""EQUITY""","""Industrials""","""Equity""","""940",511,"074.25""","""940",511
+"""FDX""","""FEDEX CORP""","""EQUITY""","""Industrials""","""Equity""","""934",596,"432.00""","""934",596
+"""AEP""","""AMERICAN ELECTRIC POWER INC""","""EQUITY""","""Utilities""","""Equity""","""925",344,"684.46""","""925",344
+"""APD""","""AIR PRODUCTS AND CHEMICALS""","""EQUITY""","""Materials""","""Equity""","""924",066,"576.28""","""924",066
+"""MNST""","""MONSTER BEVERAGE""","""EQUITY""","""Consumer Staples""","""Equity""","""917",147,"950.63""","""917",147
+"""HON""","""HONEYWELL INTERNATIONAL INC""","""EQUITY""","""Industrials""","""Equity""","""916",980,"630.02""","""916",980
+"""VRT""","""VERTIV HOLDINGS CLASS A""","""EQUITY""","""Industrials""","""Equity""","""912",295,"812.24""","""912",295
+"""KKR""","""KKR AND CO INC""","""EQUITY""","""Financials""","""Equity""","""910",990,"629.90""","""910",990
+"""KMB""","""KIMBERLY CLARK""","""EQUITY""","""Consumer Staples""","""Equity""","""907",813,"742.64""","""907",813
+"""DASH""","""DOORDASH CLASS A""","""EQUITY""","""Consumer Discretionary""","""Equity""","""907",710,"433.76""","""907",710
+"""ALL""","""ALLSTATE CORP""","""EQUITY""","""Financials""","""Equity""","""896",373,"372.16""","""896",373
+"""TDG""","""TRANSDIGM GROUP""","""EQUITY""","""Industrials""","""Equity""","""881",366,"979.31""","""881",366
+"""URI""","""UNITED RENTALS""","""EQUITY""","""Industrials""","""Equity""","""871",064,"679.62""","""871",064
+"""COR""","""CENCORA""","""EQUITY""","""Health Care""","""Equity""","""869",138,"536.64""","""869",138
+"""BSX""","""BOSTON SCIENTIFIC""","""EQUITY""","""Health Care""","""Equity""","""867",423,"633.12""","""867",423
+"""CRH""","""CRH PUBLIC LIMITED PLC""","""EQUITY""","""Materials""","""Equity""","""851",438,"530.65""","""851",438
+"""GWW""","""WW GRAINGER INC""","""EQUITY""","""Industrials""","""Equity""","""843",238,"721.93""","""843",238
+"""CAH""","""CARDINAL HEALTH""","""EQUITY""","""Health Care""","""Equity""","""835",178,"190.42""","""835",178
+"""HOOD""","""ROBINHOOD MARKETS CLASS A""","""EQUITY""","""Financials""","""Equity""","""831",007,"294.65""","""831",007
+"""CMI""","""CUMMINS INC""","""EQUITY""","""Industrials""","""Equity""","""828",010,"495.84""","""828",010
+"""DLR""","""DIGITAL REALTY TRUST REIT""","""EQUITY""","""Real Estate""","""Equity""","""823",296,"390.13""","""823",296
+"""D""","""DOMINION ENERGY""","""EQUITY""","""Utilities""","""Equity""","""821",261,"246.92""","""821",261
+"""NXPI""","""NXP SEMICONDUCTORS NV""","""EQUITY""","""Information Technology""","""Equity""","""820",493,"091.23""","""820",493
+"""TFC""","""TRUIST FINANCIAL""","""EQUITY""","""Financials""","""Equity""","""816",368,"783.44""","""816",368
+"""FAST""","""FASTENAL""","""EQUITY""","""Industrials""","""Equity""","""813",912,"628.80""","""813",912
+"""TEL""","""TE CONNECTIVITY PLC""","""EQUITY""","""Information Technology""","""Equity""","""801",057,"534.20""","""801",057
+"""KMI""","""KINDER MORGAN""","""EQUITY""","""Energy""","""Equity""","""793",231,"743.88""","""793",231
+"""HPE""","""HEWLETT PACKARD ENTERPRISE""","""EQUITY""","""Information Technology""","""Equity""","""784",072,"811.52""","""784",072
+"""DDOG""","""DATADOG INC CLASS A""","""EQUITY""","""Information Technology""","""Equity""","""784",024,"014.60""","""784",024
+"""TRGP""","""TARGA RESOURCES""","""EQUITY""","""Energy""","""Equity""","""781",542,"844.04""","""781",542
+"""BDX""","""BECTON DICKINSON""","""EQUITY""","""Health Care""","""Equity""","""779",928,"164.20""","""779",928
+"""EW""","""EDWARDS LIFESCIENCES""","""EQUITY""","""Health Care""","""Equity""","""779",193,"620.84""","""779",193
+"""PSA""","""PUBLIC STORAGE REIT""","""EQUITY""","""Real Estate""","""Equity""","""767",657,"590.50""","""767",657
+"""ADSK""","""AUTODESK""","""EQUITY""","""Information Technology""","""Equity""","""761",511,"778.56""","""761",511
+"""AFL""","""AFLAC""","""EQUITY""","""Financials""","""Equity""","""755",254,"406.88""","""755",254
+"""O""","""REALTY INCOME REIT""","""EQUITY""","""Real Estate""","""Equity""","""754",879,"832.00""","""754",879
+"""NUE""","""NUCOR""","""EQUITY""","""Materials""","""Equity""","""747",375,"020.56""","""747",375
+"""MPWR""","""MONOLITHIC POWER SYSTEMS INC""","""EQUITY""","""Information Technology""","""Equity""","""745",602,"187.13""","""745",602
+"""APO""","""APOLLO GLOBAL MANAGEMENT""","""EQUITY""","""Financials""","""Equity""","""742",842,"241.47""","""742",842
+"""PCAR""","""PACCAR INC""","""EQUITY""","""Industrials""","""Equity""","""737",528,"605.00""","""737",528
+"""OKE""","""ONEOK""","""EQUITY""","""Energy""","""Equity""","""728",996,"816.25""","""728",996
+"""AZO""","""AUTOZONE""","""EQUITY""","""Consumer Discretionary""","""Equity""","""723",979,"473.21""","""723",979
+"""MET""","""METLIFE""","""EQUITY""","""Financials""","""Equity""","""713",943,"168.75""","""713",943
+"""IDXX""","""IDEXX LABORATORIES""","""EQUITY""","""Health Care""","""Equity""","""708",516,"581.28""","""708",516
+"""SRE""","""SEMPRA""","""EQUITY""","""Utilities""","""Equity""","""699",925,"650.66""","""699",925
+"""CVNA""","""CARVANA CLASS A""","""EQUITY""","""Consumer Discretionary""","""Equity""","""695",773,"463.60""","""695",773
+"""ETR""","""ENTERGY CORP""","""EQUITY""","""Utilities""","""Equity""","""690",116,"436.60""","""690",116
+"""AME""","""AMETEK INC""","""EQUITY""","""Industrials""","""Equity""","""685",464,"124.32""","""685",464
+"""DAL""","""DELTA AIR LINES""","""EQUITY""","""Industrials""","""Equity""","""681",232,"808.08""","""681",232
+"""PYPL""","""PAYPAL HOLDINGS""","""EQUITY""","""Financials""","""Equity""","""676",287,"590.88""","""676",287
+"""XEL""","""XCEL ENERGY INC""","""EQUITY""","""Utilities""","""Equity""","""673",122,"378.78""","""673",122
+"""KDP""","""KEURIG DR PEPPER INC""","""EQUITY""","""Consumer Staples""","""Equity""","""673",104,"383.84""","""673",104
+"""HUM""","""HUMANA""","""EQUITY""","""Health Care""","""Equity""","""663",031,"314.80""","""663",031
+"""EBAY""","""EBAY""","""EQUITY""","""Consumer Discretionary""","""Equity""","""662",398,"874.60""","""662",398
+"""BE""","""BLOOM ENERGY CLASS A""","""EQUITY""","""Industrials""","""Equity""","""661",551,"891.84""","""661",551
+"""F""","""FORD MOTOR CO""","""EQUITY""","""Consumer Discretionary""","""Equity""","""658",033,"135.83""","""658",033
+"""RSG""","""REPUBLIC SERVICES INC""","""EQUITY""","""Industrials""","""Equity""","""655",411,"908.48""","""655",411
+"""ROP""","""ROPER TECHNOLOGIES""","""EQUITY""","""Information Technology""","""Equity""","""651",014,"923.84""","""651",014
+"""A""","""AGILENT TECHNOLOGIES INC""","""EQUITY""","""Health Care""","""Equity""","""650",517,"804.72""","""650",517
+"""FITB""","""FIFTH THIRD BANCORP""","""EQUITY""","""Financials""","""Equity""","""649",947,"670.55""","""649",947
+"""LHX""","""L3HARRIS TECHNOLOGIES""","""EQUITY""","""Industrials""","""Equity""","""644",447,"499.34""","""644",447
+"""EXC""","""EXELON CORP""","""EQUITY""","""Utilities""","""Equity""","""644",004,"653.49""","""644",004
+"""MSCI""","""MSCI""","""EQUITY""","""Financials""","""Equity""","""639",340,"401.58""","""639",340
+"""NKE""","""NIKE CLASS B""","""EQUITY""","""Consumer Discretionary""","""Equity""","""637",634,"805.20""","""637",634
+"""GRMN""","""GARMIN""","""EQUITY""","""Consumer Discretionary""","""Equity""","""636",881,"140.80""","""636",881
+"""HONA""","""HONEYWELL AEROSPACE INC""","""EQUITY""","""Industrials""","""Equity""","""635",724,"889.38""","""635",724
+"""NDAQ""","""NASDAQ INC""","""EQUITY""","""Financials""","""Equity""","""632",529,"426.51""","""632",529
+"""DVN""","""DEVON ENERGY""","""EQUITY""","""Energy""","""Equity""","""632",442,"394.24""","""632",442
+"""WAB""","""WESTINGHOUSE AIR BRAKE TECHNOLOGIE""","""EQUITY""","""Industrials""","""Equity""","""630",697,"883.76""","""630",697
+"""VMRK""","""VIVMARK RESIDENTIAL""","""EQUITY""","""Real Estate""","""Equity""","""629",583,"351.75""","""629",583
+"""VEEV""","""VEEVA SYSTEMS CLASS A""","""EQUITY""","""Health Care""","""Equity""","""621",402,"257.70""","""621",402
+"""BKR""","""BAKER HUGHES CLASS A""","""EQUITY""","""Energy""","""Equity""","""614",918,"766.00""","""614",918
+"""VYLR""","""VYLOR""","""EQUITY""","""Consumer Staples""","""Equity""","""613",059,"648.74""","""613",059
+"""VTR""","""VENTAS REIT""","""EQUITY""","""Real Estate""","""Equity""","""612",392,"366.88""","""612",392
+"""FERG""","""FERGUSON ENTERPRISES""","""EQUITY""","""Industrials""","""Equity""","""611",229,"676.95""","""611",229
+"""XYZ""","""BLOCK CLASS A""","""EQUITY""","""Financials""","""Equity""","""609",407,"571.96""","""609",407
+"""STT""","""STATE STREET""","""EQUITY""","""Financials""","""Equity""","""608",571,"005.25""","""608",571
+"""YUM""","""YUM BRANDS""","""EQUITY""","""Consumer Discretionary""","""Equity""","""607",729,"289.24""","""607",729
+"""LITE""","""LUMENTUM HOLDINGS""","""EQUITY""","""Information Technology""","""Equity""","""605",463,"455.40""","""605",463
+"""AMP""","""AMERIPRISE FINANCE INC""","""EQUITY""","""Financials""","""Equity""","""603",204,"483.56""","""603",204
+"""ED""","""CONSOLIDATED EDISON""","""EQUITY""","""Utilities""","""Equity""","""602",195,"700.48""","""602",195
+"""CMG""","""CHIPOTLE MEXICAN GRILL""","""EQUITY""","""Consumer Discretionary""","""Equity""","""600",634,"667.40""","""600",634
+"""KEYS""","""KEYSIGHT TECHNOLOGIES""","""EQUITY""","""Information Technology""","""Equity""","""597",151,"068.99""","""597",151
+"""WAT""","""WATERS CORP""","""EQUITY""","""Health Care""","""Equity""","""596",853,"611.00""","""596",853
+"""CARR""","""CARRIER GLOBAL""","""EQUITY""","""Industrials""","""Equity""","""588",120,"232.94""","""588",120
+"""IQV""","""IQVIA HOLDINGS INC""","""EQUITY""","""Health Care""","""Equity""","""584",606,"317.68""","""584",606
+"""AIG""","""AMERICAN INTERNATIONAL GROUP""","""EQUITY""","""Financials""","""Equity""","""567",411,"479.27""","""567",411
+"""ROK""","""ROCKWELL AUTOMATION INC""","""EQUITY""","""Industrials""","""Equity""","""567",336,"580.85""","""567",336
+"""PRU""","""PRUDENTIAL FINANCIAL INC""","""EQUITY""","""Financials""","""Equity""","""566",473,"631.10""","""566",473
+"""OXY""","""OCCIDENTAL PETROLEUM CORP""","""EQUITY""","""Energy""","""Equity""","""551",455,"039.96""","""551",455
+"""WDAY""","""WORKDAY CLASS A""","""EQUITY""","""Information Technology""","""Equity""","""539",482,"170.40""","""539",482
+"""DHI""","""D R HORTON""","""EQUITY""","""Consumer Discretionary""","""Equity""","""537",962,"816.60""","""537",962
+"""KR""","""KROGER""","""EQUITY""","""Consumer Staples""","""Equity""","""530",412,"151.32""","""530",412
+"""CBRE""","""CBRE GROUP CLASS A""","""EQUITY""","""Real Estate""","""Equity""","""520",992,"122.85""","""520",992
+"""CCI""","""CROWN CASTLE INC""","""EQUITY""","""Real Estate""","""Equity""","""518",833,"824.75""","""518",833
+"""WEC""","""WEC ENERGY GROUP""","""EQUITY""","""Utilities""","""Equity""","""516",943,"392.96""","""516",943
+"""PAYX""","""PAYCHEX""","""EQUITY""","""Industrials""","""Equity""","""512",918,"856.00""","""512",918
+"""GEHC""","""GE HEALTHCARE TECHNOLOGIES""","""EQUITY""","""Health Care""","""Equity""","""507",212,"612.50""","""507",212
+"""ACGL""","""ARCH CAPITAL GROUP""","""EQUITY""","""Financials""","""Equity""","""503",792,"191.83""","""503",792
+"""TTWO""","""TAKE TWO INTERACTIVE SOFTWARE""","""EQUITY""","""Communication""","""Equity""","""502",812,"923.76""","""502",812
+"""CCL""","""CARNIVAL CORP LTD""","""EQUITY""","""Consumer Discretionary""","""Equity""","""502",809,"292.80""","""502",809
+"""HIG""","""HARTFORD INSURANCE GROUP""","""EQUITY""","""Financials""","""Equity""","""497",892,"509.94""","""497",892
+"""VMC""","""VULCAN MATERIALS""","""EQUITY""","""Materials""","""Equity""","""496",039,"649.31""","""496",039
+"""FANG""","""DIAMONDBACK ENERGY""","""EQUITY""","""Energy""","""Equity""","""492",219,"082.68""","""492",219
+"""CNC""","""CENTENE CORP""","""EQUITY""","""Health Care""","""Equity""","""491",274,"117.91""","""491",274
+"""CBOE""","""CBOE GLOBAL MARKETS""","""EQUITY""","""Financials""","""Equity""","""490",057,"276.23""","""490",057
+"""PEG""","""PUBLIC SERVICE ENTERPRISE GROUP""","""EQUITY""","""Utilities""","""Equity""","""488",517,"431.50""","""488",517
+"""BIIB""","""BIOGEN""","""EQUITY""","""Health Care""","""Equity""","""483",265,"822.38""","""483",265
+"""SYY""","""SYSCO""","""EQUITY""","""Consumer Staples""","""Equity""","""482",773,"397.04""","""482",773
+"""UAL""","""UNITED AIRLINES HOLDINGS""","""EQUITY""","""Industrials""","""Equity""","""480",853,"916.37""","""480",853
+"""VST""","""VISTRA""","""EQUITY""","""Utilities""","""Equity""","""477",550,"326.03""","""477",550
+"""MCHP""","""MICROCHIP TECHNOLOGY INC""","""EQUITY""","""Information Technology""","""Equity""","""472",156,"507.80""","""472",156
+"""RMD""","""RESMED""","""EQUITY""","""Health Care""","""Equity""","""462",877,"470.27""","""462",877
+"""ADM""","""ARCHER DANIELS MIDLAND""","""EQUITY""","""Consumer Staples""","""Equity""","""455",394,"898.44""","""455",394
+"""ZTS""","""ZOETIS INC CLASS A""","""EQUITY""","""Health Care""","""Equity""","""454",941,"047.19""","""454",941
+"""FIX""","""COMFORT SYSTEMS USA""","""EQUITY""","""Industrials""","""Equity""","""454",517,"618.08""","""454",517
+"""EXR""","""EXTRA SPACE STORAGE REIT""","""EQUITY""","""Real Estate""","""Equity""","""453",588,"736.60""","""453",588
+"""MTD""","""METTLER TOLEDO""","""EQUITY""","""Health Care""","""Equity""","""451",047,"902.24""","""451",047
+"""FISV""","""FISERV INC""","""EQUITY""","""Financials""","""Equity""","""447",342,"097.56""","""447",342
+"""TER""","""TERADYNE""","""EQUITY""","""Information Technology""","""Equity""","""445",968,"138.44""","""445",968
+"""COHR""","""COHERENT""","""EQUITY""","""Information Technology""","""Equity""","""445",760,"221.76""","""445",760
+"""NTAP""","""NETAPP INC""","""EQUITY""","""Information Technology""","""Equity""","""445",667,"405.22""","""445",667
+"""IBKR""","""INTERACTIVE BROKERS GROUP INC CLAS""","""EQUITY""","""Financials""","""Equity""","""441",832,"786.29""","""441",832
+"""CIEN""","""CIENA""","""EQUITY""","""Information Technology""","""Equity""","""438",063,"762.21""","""438",063
+"""DXCM""","""DEXCOM INC""","""EQUITY""","""Health Care""","""Equity""","""427",345,"049.18""","""427",345
+"""ODFL""","""OLD DOMINION FREIGHT LINE""","""EQUITY""","""Industrials""","""Equity""","""426",774,"379.20""","""426",774
+"""MTB""","""M&T BANK""","""EQUITY""","""Financials""","""Equity""","""425",581,"332.66""","""425",581
+"""MLM""","""MARTIN MARIETTA MATERIALS""","""EQUITY""","""Materials""","""Equity""","""425",117,"448.98""","""425",117
+"""EQT""","""EQT""","""EQUITY""","""Energy""","""Equity""","""424",552,"066.04""","""424",552
+"""HBAN""","""HUNTINGTON BANCSHARES INC""","""EQUITY""","""Financials""","""Equity""","""422",877,"662.97""","""422",877
+"""ILMN""","""ILLUMINA INC""","""EQUITY""","""Health Care""","""Equity""","""421",140,"304.00""","""421",140
+"""IRM""","""IRON MOUNTAIN INC""","""EQUITY""","""Real Estate""","""Equity""","""421",125,"194.00""","""421",125
+"""NTRS""","""NORTHERN TRUST""","""EQUITY""","""Financials""","""Equity""","""420",432,"524.25""","""420",432
+"""WTW""","""WILLIS TOWERS WATSON""","""EQUITY""","""Financials""","""Equity""","""419",044,"798.17""","""419",044
+"""AEE""","""AMEREN""","""EQUITY""","""Utilities""","""Equity""","""418",751,"848.10""","""418",751
+"""EXPE""","""EXPEDIA GROUP""","""EQUITY""","""Consumer Discretionary""","""Equity""","""418",282,"685.60""","""418",282
+"""AXON""","""AXON ENTERPRISE""","""EQUITY""","""Industrials""","""Equity""","""416",689,"325.28""","""416",689
+"""P""","""EVERPURE INC CLASS A""","""EQUITY""","""Information Technology""","""Equity""","""416",459,"463.68""","""416",459
+"""XTSLA""","""BLK CSH FND TREASURY SL AGENCY""","""STIF""","""Cash and/or Derivatives""","""Money Market""","""450",478,"118.32""","""415",251
+"""ESZ6""","""S&P500 EMINI DEC 26""","""INDEX""","""Cash and/or Derivatives""","""Futures""","""0.00""","""413",817,"150.00""","""1"
+"""TWLO""","""TWILIO CLASS A""","""EQUITY""","""Information Technology""","""Equity""","""413",804,"573.44""","""413",804
+"""COIN""","""COINBASE GLOBAL CLASS A""","""EQUITY""","""Financials""","""Equity""","""408",726,"080.14""","""408",726
+"""WSM""","""WILLIAMS SONOMA INC""","""EQUITY""","""Consumer Discretionary""","""Equity""","""408",269,"675.88""","""408",269
+"""DG""","""DOLLAR GENERAL CORP""","""EQUITY""","""Consumer Staples""","""Equity""","""408",158,"736.00""","""408",158
+"""AWK""","""AMERICAN WATER WORKS""","""EQUITY""","""Utilities""","""Equity""","""406",127,"967.44""","""406",127
+"""OTIS""","""OTIS WORLDWIDE""","""EQUITY""","""Industrials""","""Equity""","""405",725,"147.47""","""405",725
+"""CTSH""","""COGNIZANT TECHNOLOGY SOLUTIONS CLA""","""EQUITY""","""Information Technology""","""Equity""","""401",884,"166.52""","""401",884
+"""ARES""","""ARES MANAGEMENT CLASS A""","""EQUITY""","""Financials""","""Equity""","""401",545,"113.60""","""401",545
+"""STLD""","""STEEL DYNAMICS INC""","""EQUITY""","""Materials""","""Equity""","""400",836,"897.27""","""400",836
+"""ATO""","""ATMOS ENERGY""","""EQUITY""","""Utilities""","""Equity""","""396",519,"200.00""","""396",519
+"""LH""","""LABCORP HOLDINGS""","""EQUITY""","""Health Care""","""Equity""","""395",049,"513.60""","""395",049
+"""CPAY""","""CORPAY""","""EQUITY""","""Financials""","""Equity""","""393",521,"367.00""","""393",521
+"""PCG""","""PG&E CORP""","""EQUITY""","""Utilities""","""Equity""","""390",680,"682.84""","""390",680
+"""CINF""","""CINCINNATI FINANCIAL""","""EQUITY""","""Financials""","""Equity""","""387",513,"733.50""","""387",513
+"""LYV""","""LIVE NATION ENTERTAINMENT""","""EQUITY""","""Communication""","""Equity""","""384",982,"975.00""","""384",982
+"""RJF""","""RAYMOND JAMES""","""EQUITY""","""Financials""","""Equity""","""382",611,"005.34""","""382",611
+"""OKTA""","""OKTA CLASS A""","""EQUITY""","""Information Technology""","""Equity""","""381",152,"438.48""","""381",152
+"""VLTO""","""VERALTO""","""EQUITY""","""Industrials""","""Equity""","""380",990,"877.75""","""380",990
+"""IR""","""INGERSOLL RAND""","""EQUITY""","""Industrials""","""Equity""","""378",967,"709.95""","""378",967
+"""DGX""","""QUEST DIAGNOSTICS INC""","""EQUITY""","""Health Care""","""Equity""","""376",987,"942.82""","""376",987
+"""DTE""","""DTE ENERGY""","""EQUITY""","""Utilities""","""Equity""","""376",305,"372.58""","""376",305
+"""ULTA""","""ULTA BEAUTY INC""","""EQUITY""","""Consumer Discretionary""","""Equity""","""374",555,"116.80""","""374",555
+"""VICI""","""VICI PPTYS INC""","""EQUITY""","""Real Estate""","""Equity""","""372",186,"599.71""","""372",186
+"""WST""","""WEST PHARMACEUTICAL SERVICES""","""EQUITY""","""Health Care""","""Equity""","""370",362,"574.56""","""370",362
+"""VRSK""","""VERISK ANALYTICS""","""EQUITY""","""Industrials""","""Equity""","""369",063,"153.69""","""369",063
+"""TDY""","""TELEDYNE TECHNOLOGIES""","""EQUITY""","""Information Technology""","""Equity""","""367",795,"400.40""","""367",795
+"""PPG""","""PPG INDUSTRIES""","""EQUITY""","""Materials""","""Equity""","""367",423,"616.07""","""367",423
+"""CPRT""","""COPART INC""","""EQUITY""","""Industrials""","""Equity""","""366",901,"810.24""","""366",901
+"""DOV""","""DOVER""","""EQUITY""","""Industrials""","""Equity""","""365",779,"607.04""","""365",779
+"""PPL""","""PPL CORP""","""EQUITY""","""Utilities""","""Equity""","""363",250,"944.00""","""363",250
+"""ES""","""EVERSOURCE ENERGY""","""EQUITY""","""Utilities""","""Equity""","""363",238,"432.80""","""363",238
+"""HPQ""","""HP INC""","""EQUITY""","""Information Technology""","""Equity""","""360",997,"313.28""","""360",997
+"""CFG""","""CITIZENS FINANCIAL GROUP INC""","""EQUITY""","""Financials""","""Equity""","""360",468,"244.11""","""360",468
+"""TPR""","""TAPESTRY""","""EQUITY""","""Consumer Discretionary""","""Equity""","""358",709,"666.82""","""358",709
+"""EL""","""ESTEE LAUDER INC CLASS A""","""EQUITY""","""Consumer Staples""","""Equity""","""356",941,"671.65""","""356",941
+"""HAL""","""HALLIBURTON""","""EQUITY""","""Energy""","""Equity""","""356",573,"563.92""","""356",573
+"""DLTR""","""DOLLAR TREE INC""","""EQUITY""","""Consumer Staples""","""Equity""","""355",442,"688.48""","""355",442
+"""CHD""","""CHURCH AND DWIGHT INC""","""EQUITY""","""Consumer Staples""","""Equity""","""354",090,"408.84""","""354",090
+"""CNP""","""CENTERPOINT ENERGY""","""EQUITY""","""Utilities""","""Equity""","""353",022,"794.18""","""353",022
+"""EME""","""EMCOR GROUP""","""EQUITY""","""Industrials""","""Equity""","""352",141,"900.44""","""352",141
+"""DRI""","""DARDEN RESTAURANTS INC""","""EQUITY""","""Consumer Discretionary""","""Equity""","""348",130,"866.72""","""348",130
+"""HSY""","""HERSHEY FOODS""","""EQUITY""","""Consumer Staples""","""Equity""","""348",081,"996.57""","""348",081
+"""CASY""","""CASEYS GENERAL STORES INC""","""EQUITY""","""Consumer Staples""","""Equity""","""342",057,"905.22""","""342",057
+"""VRSN""","""VERISIGN""","""EQUITY""","""Information Technology""","""Equity""","""340",036,"491.06""","""340",036
+"""PHM""","""PULTEGROUP""","""EQUITY""","""Consumer Discretionary""","""Equity""","""339",692,"902.65""","""339",692
+"""STE""","""STERIS""","""EQUITY""","""Health Care""","""Equity""","""332",232,"422.08""","""332",232
+"""JBL""","""JABIL""","""EQUITY""","""Information Technology""","""Equity""","""332",095,"963.48""","""332",095
+"""FLEX""","""FLEX LTD""","""EQUITY""","""Information Technology""","""Equity""","""330",510,"553.69""","""330",510
+"""EXPD""","""EXPEDITORS INTERNATIONAL OF WASHIN""","""EQUITY""","""Industrials""","""Equity""","""329",173,"401.59""","""329",173
+"""ON""","""ON SEMICONDUCTOR CORP""","""EQUITY""","""Information Technology""","""Equity""","""328",911,"380.87""","""328",911
+"""FE""","""FIRSTENERGY CORP""","""EQUITY""","""Utilities""","""Equity""","""325",634,"670.24""","""325",634
+"""RF""","""REGIONS FINANCIAL""","""EQUITY""","""Financials""","""Equity""","""324",525,"810.63""","""324",525
+"""SYF""","""SYNCHRONY FINANCIAL""","""EQUITY""","""Financials""","""Equity""","""323",143,"337.25""","""323",143
+"""OMC""","""OMNICOM GROUP INC""","""EQUITY""","""Communication""","""Equity""","""320",355,"600.87""","""320",355
+"""EIX""","""EDISON INTERNATIONAL""","""EQUITY""","""Utilities""","""Equity""","""314",116,"326.24""","""314",116
+"""XYL""","""XYLEM INC""","""EQUITY""","""Industrials""","""Equity""","""313",228,"135.80""","""313",228
+"""SW""","""SMURFIT WESTROCK PLC""","""EQUITY""","""Materials""","""Equity""","""313",039,"097.06""","""313",039
+"""TROW""","""T ROWE PRICE GROUP""","""EQUITY""","""Financials""","""Equity""","""310",935,"059.75""","""310",935
+"""DOW""","""DOW""","""EQUITY""","""Materials""","""Equity""","""309",733,"591.44""","""309",733
+"""Q""","""QNITY ELECTRONICS""","""EQUITY""","""Information Technology""","""Equity""","""308",665,"831.32""","""308",665
+"""EFX""","""EQUIFAX""","""EQUITY""","""Industrials""","""Equity""","""305",341,"807.84""","""305",341
+"""HUBB""","""HUBBELL INC""","""EQUITY""","""Industrials""","""Equity""","""296",697,"638.56""","""296",697
+"""BR""","""BROADRIDGE FINANCIAL SOLUTIONS INC""","""EQUITY""","""Industrials""","""Equity""","""296",463,"926.40""","""296",463
+"""IFF""","""INTERNATIONAL FLAVORS & FRAGRANCES""","""EQUITY""","""Materials""","""Equity""","""295",445,"159.68""","""295",445
+"""PKG""","""PACKAGING CORP OF AMERICA""","""EQUITY""","""Materials""","""Equity""","""295",402,"976.80""","""295",402
+"""CMS""","""CMS ENERGY""","""EQUITY""","""Utilities""","""Equity""","""294",777,"985.77""","""294",777
+"""PFG""","""PRINCIPAL FINANCIAL GROUP INC""","""EQUITY""","""Financials""","""Equity""","""294",728,"711.60""","""294",728
+"""KHC""","""KRAFT HEINZ""","""EQUITY""","""Consumer Staples""","""Equity""","""293",887,"518.24""","""293",887
+"""VTRS""","""VIATRIS""","""EQUITY""","""Health Care""","""Equity""","""292",149,"400.97""","""292",149
+"""LUV""","""SOUTHWEST AIRLINES""","""EQUITY""","""Industrials""","""Equity""","""291",511,"512.60""","""291",511
+"""STZ""","""CONSTELLATION BRANDS CLASS A""","""EQUITY""","""Consumer Staples""","""Equity""","""291",246,"622.16""","""291",246
+"""BRO""","""BROWN & BROWN INC""","""EQUITY""","""Financials""","""Equity""","""286",988,"163.90""","""286",988
+"""NI""","""NISOURCE""","""EQUITY""","""Utilities""","""Equity""","""285",748,"089.00""","""285",748
+"""AMCR""","""AMCOR PLC""","""EQUITY""","""Materials""","""Equity""","""284",169,"677.76""","""284",169
+"""PTC""","""PTC""","""EQUITY""","""Information Technology""","""Equity""","""283",118,"869.60""","""283",118
+"""GPN""","""GLOBAL PAYMENTS INC""","""EQUITY""","""Financials""","""Equity""","""283",074,"972.72""","""283",074
+"""FSLR""","""FIRST SOLAR""","""EQUITY""","""Information Technology""","""Equity""","""282",071,"562.80""","""282",071
+"""SBAC""","""SBA COMMUNICATIONS REIT CORP CLASS""","""EQUITY""","""Real Estate""","""Equity""","""274",684,"875.84""","""274",684
+"""ZBH""","""ZIMMER BIOMET HOLDINGS""","""EQUITY""","""Health Care""","""Equity""","""273",270,"584.60""","""273",270
+"""EVRG""","""EVERGY""","""EQUITY""","""Utilities""","""Equity""","""270",177,"754.25""","""270",177
+"""INCY""","""INCYTE CORP""","""EQUITY""","""Health Care""","""Equity""","""269",417,"184.03""","""269",417
+"""CDW""","""CDW""","""EQUITY""","""Information Technology""","""Equity""","""265",512,"166.41""","""265",512
+"""FTV""","""FORTIVE""","""EQUITY""","""Industrials""","""Equity""","""264",915,"019.00""","""264",915
+"""EXE""","""EXPAND ENERGY""","""EQUITY""","""Energy""","""Equity""","""264",893,"738.54""","""264",893
+"""BBY""","""BEST BUY""","""EQUITY""","""Consumer Discretionary""","""Equity""","""264",051,"229.40""","""264",051
+"""DD""","""DUPONT DE NEMOURS""","""EQUITY""","""Industrials""","""Equity""","""262",411,"562.37""","""262",411
+"""GIS""","""GENERAL MILLS INC""","""EQUITY""","""Consumer Staples""","""Equity""","""261",358,"369.14""","""261",358
+"""TSCO""","""TRACTOR SUPPLY""","""EQUITY""","""Consumer Discretionary""","""Equity""","""255",768,"772.49""","""255",768
+"""LNT""","""ALLIANT ENERGY CORP""","""EQUITY""","""Utilities""","""Equity""","""255",323,"486.88""","""255",323
+"""KEY""","""KEYCORP""","""EQUITY""","""Financials""","""Equity""","""254",918,"328.64""","""254",918
+"""SNA""","""SNAP ON INC""","""EQUITY""","""Industrials""","""Equity""","""254",148,"859.28""","""254",148
+"""SWKS""","""SKYWORKS SOLUTIONS""","""EQUITY""","""Information Technology""","""Equity""","""248",677,"039.08""","""248",677
+"""L""","""LOEWS""","""EQUITY""","""Financials""","""Equity""","""246",730,"826.00""","""246",730
+"""IP""","""INTERNATIONAL PAPER""","""EQUITY""","""Materials""","""Equity""","""243",121,"599.36""","""243",121
+"""CF""","""CF INDUSTRIES HOLDINGS INC""","""EQUITY""","""Materials""","""Equity""","""240",602,"836.85""","""240",602
+"""LEN""","""LENNAR A CLASS A""","""EQUITY""","""Consumer Discretionary""","""Equity""","""237",825,"066.93""","""237",825
+"""BALL""","""BALL CORP""","""EQUITY""","""Materials""","""Equity""","""237",479,"849.13""","""237",479
+"""FFIV""","""F5""","""EQUITY""","""Information Technology""","""Equity""","""236",702,"311.56""","""236",702
+"""WRB""","""WR BERKLEY""","""EQUITY""","""Financials""","""Equity""","""233",725,"983.18""","""233",725
+"""ESS""","""ESSEX PROPERTY TRUST REIT""","""EQUITY""","""Real Estate""","""Equity""","""233",660,"642.24""","""233",660
+"""SWK""","""STANLEY BLACK & DECKER""","""EQUITY""","""Industrials""","""Equity""","""233",414,"718.53""","""233",414
+"""J""","""JACOBS SOLUTIONS INC""","""EQUITY""","""Industrials""","""Equity""","""231",534,"226.92""","""231",534
+"""KIM""","""KIMCO REALTY REIT CORP""","""EQUITY""","""Real Estate""","""Equity""","""230",516,"630.08""","""230",516
+"""GPC""","""GENUINE PARTS""","""EQUITY""","""Consumer Discretionary""","""Equity""","""230",021,"491.32""","""230",021
+"""LDOS""","""LEIDOS HOLDINGS""","""EQUITY""","""Industrials""","""Equity""","""228",521,"647.17""","""228",521
+"""TSN""","""TYSON FOODS INC CLASS A""","""EQUITY""","""Consumer Staples""","""Equity""","""227",119,"984.66""","""227",119
+"""NRG""","""NRG ENERGY INC""","""EQUITY""","""Utilities""","""Equity""","""227",033,"316.45""","""227",033
+"""HST""","""HOST HOTELS & RESORTS REIT""","""EQUITY""","""Real Estate""","""Equity""","""226",259,"431.05""","""226",259
+"""HAS""","""HASBRO""","""EQUITY""","""Consumer Discretionary""","""Equity""","""226",234,"470.68""","""226",234
+"""RVTY""","""REVVITY""","""EQUITY""","""Health Care""","""Equity""","""225",674,"259.28""","""225",674
+"""GEN""","""GEN DIGITAL""","""EQUITY""","""Information Technology""","""Equity""","""221",036,"774.40""","""221",036
+"""MAS""","""MASCO""","""EQUITY""","""Industrials""","""Equity""","""220",786,"660.85""","""220",786
+"""NDSN""","""NORDSON""","""EQUITY""","""Industrials""","""Equity""","""220",379,"902.69""","""220",379
+"""IEX""","""IDEX""","""EQUITY""","""Industrials""","""Equity""","""220",039,"432.20""","""220",039
+"""TYL""","""TYLER TECHNOLOGIES""","""EQUITY""","""Information Technology""","""Equity""","""219",761,"984.95""","""219",761
+"""JBHT""","""JB HUNT TRANSPORT SERVICES""","""EQUITY""","""Industrials""","""Equity""","""217",399,"439.74""","""217",399
+"""NVR""","""NVR""","""EQUITY""","""Consumer Discretionary""","""Equity""","""217",126,"407.18""","""217",126
+"""TPL""","""TEXAS PACIFIC LAND""","""EQUITY""","""Energy""","""Equity""","""213",960,"970.18""","""213",960
+"""LYB""","""LYONDELLBASELL INDUSTRIES CLASS A""","""EQUITY""","""Materials""","""Equity""","""213",622,"090.89""","""213",622
+"""ALLE""","""ALLEGION PLC""","""EQUITY""","""Industrials""","""Equity""","""213",362,"431.08""","""213",362
+"""WY""","""WEYERHAEUSER REIT""","""EQUITY""","""Real Estate""","""Equity""","""209",026,"241.97""","""209",026
+"""BG""","""BUNGE GLOBAL SA""","""EQUITY""","""Consumer Staples""","""Equity""","""208",137,"173.40""","""208",137
+"""FICO""","""FAIR ISAAC""","""EQUITY""","""Information Technology""","""Equity""","""204",876,"480.60""","""204",876
+"""SMCI""","""SUPER MICRO COMPUTER INC""","""EQUITY""","""Information Technology""","""Equity""","""204",330,"569.36""","""204",330
+"""APA""","""APA""","""EQUITY""","""Energy""","""Equity""","""204",248,"387.00""","""204",248
+"""ZBRA""","""ZEBRA TECHNOLOGIES CORP CLASS A""","""EQUITY""","""Information Technology""","""Equity""","""204",004,"351.32""","""204",004
+"""GDDY""","""GODADDY CLASS A""","""EQUITY""","""Information Technology""","""Equity""","""203",987,"543.76""","""203",987
+"""FIS""","""FIDELITY NATIONAL INFORMATION SERV""","""EQUITY""","""Financials""","""Equity""","""203",221,"034.48""","""203",221
+"""AIZ""","""ASSURANT INC""","""EQUITY""","""Financials""","""Equity""","""201",172,"617.81""","""201",172
+"""CHRW""","""CH ROBINSON WORLDWIDE""","""EQUITY""","""Industrials""","""Equity""","""201",035,"979.69""","""201",035
+"""CRL""","""CHARLES RIVER LABORATORIES INTERNA""","""EQUITY""","""Health Care""","""Equity""","""200",389,"769.64""","""200",389
+"""EG""","""EVEREST GROUP""","""EQUITY""","""Financials""","""Equity""","""199",843,"579.65""","""199",843
+"""FDXF""","""FEDEX FREIGHT HOLDING COMPANY INC""","""EQUITY""","""Industrials""","""Equity""","""199",520,"049.30""","""199",520
+"""INVH""","""INVITATION HOMES""","""EQUITY""","""Real Estate""","""Equity""","""198",610,"643.92""","""198",610
+"""TXT""","""TEXTRON INC""","""EQUITY""","""Industrials""","""Equity""","""196",546,"772.25""","""196",546
+"""RL""","""RALPH LAUREN CLASS A""","""EQUITY""","""Consumer Discretionary""","""Equity""","""193",003,"534.08""","""193",003
+"""AVY""","""AVERY DENNISON CORP""","""EQUITY""","""Materials""","""Equity""","""192",770,"104.80""","""192",770
+"""SJM""","""JM SMUCKER""","""EQUITY""","""Consumer Staples""","""Equity""","""191",009,"078.00""","""191",009
+"""MAA""","""MID AMERICA APARTMENT COMMUNITIES""","""EQUITY""","""Real Estate""","""Equity""","""189",298,"408.51""","""189",298
+"""CHTR""","""CHARTER COMMUNICATIONS CLASS A""","""EQUITY""","""Communication""","""Equity""","""188",679,"872.50""","""188",679
+"""DOC""","""HEALTHPEAK PROPERTIES INC""","""EQUITY""","""Real Estate""","""Equity""","""186",015,"134.20""","""186",015
+"""RDDT""","""REDDIT CLASS A""","""EQUITY""","""Communication""","""Equity""","""183",775,"760.01""","""183",775
+"""FOXA""","""FOX CLASS A""","""EQUITY""","""Communication""","""Equity""","""180",926,"910.55""","""180",926
+"""BAX""","""BAXTER INTERNATIONAL""","""EQUITY""","""Health Care""","""Equity""","""177",805,"287.00""","""177",805
+"""CSGP""","""COSTAR GROUP""","""EQUITY""","""Real Estate""","""Equity""","""174",125,"919.30""","""174",125
+"""JKHY""","""JACK HENRY AND ASSOCIATES INC""","""EQUITY""","""Financials""","""Equity""","""171",719,"100.94""","""171",719
+"""REG""","""REGENCY CENTERS REIT CORP""","""EQUITY""","""Real Estate""","""Equity""","""170",464,"746.72""","""170",464
+"""MKC""","""MCCORMICK & CO NON-VOTING""","""EQUITY""","""Consumer Staples""","""Equity""","""170",435,"327.26""","""170",435
+"""SOLV""","""SOLVENTUM""","""EQUITY""","""Health Care""","""Equity""","""169",137,"133.38""","""169",137
+"""PNW""","""PINNACLE WEST""","""EQUITY""","""Utilities""","""Equity""","""168",599,"673.15""","""168",599
+"""IT""","""GARTNER""","""EQUITY""","""Information Technology""","""Equity""","""167",742,"710.02""","""167",742
+"""TRMB""","""TRIMBLE INC""","""EQUITY""","""Information Technology""","""Equity""","""167",703,"260.76""","""167",703
+"""ECHO""","""ECHOSTAR CLASS A""","""EQUITY""","""Communication""","""Equity""","""166",922,"272.64""","""166",922
+"""COO""","""COOPER""","""EQUITY""","""Health Care""","""Equity""","""166",024,"285.44""","""166",024
+"""GL""","""GLOBE LIFE""","""EQUITY""","""Financials""","""Equity""","""164",109,"687.75""","""164",109
+"""FDS""","""FACTSET RESEARCH SYSTEMS""","""EQUITY""","""Financials""","""Equity""","""162",243,"488.16""","""162",243
+"""CLX""","""CLOROX""","""EQUITY""","""Consumer Staples""","""Equity""","""161",604,"328.20""","""161",604
+"""IVZ""","""INVESCO LTD""","""EQUITY""","""Financials""","""Equity""","""160",304,"826.08""","""160",304
+"""DECK""","""DECKERS OUTDOOR""","""EQUITY""","""Consumer Discretionary""","""Equity""","""160",229,"735.12""","""160",229
+"""LULU""","""LULULEMON ATHLETICA""","""EQUITY""","""Consumer Discretionary""","""Equity""","""156",373,"383.28""","""156",373
+"""ALB""","""ALBEMARLE CORP""","""EQUITY""","""Materials""","""Equity""","""155",653,"998.84""","""155",653
+"""ROL""","""ROLLINS INC""","""EQUITY""","""Industrials""","""Equity""","""155",075,"504.16""","""155",075
+"""HII""","""HUNTINGTON INGALLS INDUSTRIES""","""EQUITY""","""Industrials""","""Equity""","""153",007,"594.08""","""153",007
+"""TECH""","""BIO TECHNE""","""EQUITY""","""Health Care""","""Equity""","""152",541,"895.38""","""152",541
+"""TKO""","""TKO GROUP HOLDINGS INC CLASS A""","""EQUITY""","""Communication""","""Equity""","""151",853,"318.68""","""151",853
+"""DPZ""","""DOMINOS PIZZA""","""EQUITY""","""Consumer Discretionary""","""Equity""","""151",523,"153.90""","""151",523
+"""AKAM""","""AKAMAI TECHNOLOGIES INC""","""EQUITY""","""Information Technology""","""Equity""","""149",990,"285.20""","""149",990
+"""PNR""","""PENTAIR""","""EQUITY""","""Industrials""","""Equity""","""149",145,"584.75""","""149",145
+"""LII""","""LENNOX INTERNATIONAL""","""EQUITY""","""Industrials""","""Equity""","""147",065,"210.76""","""147",065
+"""PODD""","""INSULET""","""EQUITY""","""Health Care""","""Equity""","""145",125,"092.88""","""145",125
+"""UDR""","""UDR REIT""","""EQUITY""","""Real Estate""","""Equity""","""145",101,"591.05""","""145",101
+"""AES""","""AES""","""EQUITY""","""Utilities""","""Equity""","""142",374,"010.80""","""142",374
+"""LVS""","""LAS VEGAS SANDS""","""EQUITY""","""Consumer Discretionary""","""Equity""","""142",199,"250.60""","""142",199
+"""ALGN""","""ALIGN TECHNOLOGY""","""EQUITY""","""Health Care""","""Equity""","""141",173,"770.88""","""141",173
+"""CPT""","""CAMDEN PROPERTY TRUST REIT""","""EQUITY""","""Real Estate""","""Equity""","""139",819,"125.54""","""139",819
+"""BXP""","""BXP""","""EQUITY""","""Real Estate""","""Equity""","""139",482,"010.92""","""139",482
+"""UHS""","""UNIVERSAL HEALTH SERVICES CLASS B""","""EQUITY""","""Health Care""","""Equity""","""137",694,"759.58""","""137",694
+"""GNRC""","""GENERAC HOLDINGS""","""EQUITY""","""Industrials""","""Equity""","""136",332,"847.95""","""136",332
+"""NWSA""","""NEWS CLASS A""","""EQUITY""","""Communication""","""Equity""","""128",017,"030.40""","""128",017
+"""BEN""","""FRANKLIN TEMPLETON""","""EQUITY""","""Financials""","""Equity""","""127",336,"791.51""","""127",336
+"""FRT""","""FEDERAL REALTY INVESTMENT TRUST RE""","""EQUITY""","""Real Estate""","""Equity""","""121",412,"983.76""","""121",412
+"""APTV""","""APTIV PLC""","""EQUITY""","""Consumer Discretionary""","""Equity""","""113",780,"158.60""","""113",780
+"""HSIC""","""HENRY SCHEIN""","""EQUITY""","""Health Care""","""Equity""","""109",502,"977.59""","""109",502
+"""NCLH""","""NORWEGIAN CRUISE LINE HOLDINGS""","""EQUITY""","""Consumer Discretionary""","""Equity""","""109",347,"236.64""","""109",347
+"""FOX""","""FOX CLASS B""","""EQUITY""","""Communication""","""Equity""","""108",157,"410.76""","""108",157
+"""ERIE""","""ERIE INDEMNITY CLASS A""","""EQUITY""","""Financials""","""Equity""","""98",912,"812.11""","""98",912
+"""AOS""","""A O SMITH""","""EQUITY""","""Industrials""","""Equity""","""98",091,"360.99""","""98",091
+"""MOS""","""MOSAIC""","""EQUITY""","""Materials""","""Equity""","""95",178,"074.53""","""95",178
+"""ARE""","""ALEXANDRIA REAL ESTATE EQUITIES RE""","""EQUITY""","""Real Estate""","""Equity""","""95",045,"358.90""","""95",045
+"""HRL""","""HORMEL FOODS CORP""","""EQUITY""","""Consumer Staples""","""Equity""","""88",361,"773.80""","""88",361
+"""DVA""","""DAVITA INC""","""EQUITY""","""Health Care""","""Equity""","""88",270,"604.16""","""88",270
+"""WYNN""","""WYNN RESORTS""","""EQUITY""","""Consumer Discretionary""","""Equity""","""77",549,"577.60""","""77",549
+"""MGM""","""MGM RESORTS INTERNATIONAL""","""EQUITY""","""Consumer Discretionary""","""Equity""","""76",720,"664.36""","""76",720
+"""BF B""","""BROWN FORMAN CLASS B""","""EQUITY""","""Consumer Staples""","""Equity""","""73",429,"937.28""","""73",429
+"""SKYD""","""SKYDANCE SHS CLASS B""","""EQUITY""","""Communication""","""Equity""","""59",456,"393.45""","""59",456
+"""NWS""","""NEWS CLASS B""","""EQUITY""","""Communication""","""Equity""","""46",214,"884.99""","""46",214
+"""SGAFT""","""CASH COLLATERAL USD SGAFT""","""COLLATERAL""","""Cash and/or Derivatives""","""Cash Collateral and Margins""","""32",521,"000.00""","""32",521
+"""HOLX""","""HOLOGIC INC""","""EQUITY""","""Health Care""","""Equity""","""28","433.88""","""28","433.88""","""2"
+"""SKYD WS""","""SKYDANCE EQUITY WARRANTS EXP TH OC""","""WARRANT""","""Communication""","""Equity""","""18.20""","""18.20""","""5.00""","""3.64""","""United States"""
+"""USD""","""USD CASH""","""CASH""","""Cash and/or Derivatives""","""Cash""","""0.00""","""0.00""","""-35",226,"925.00"""

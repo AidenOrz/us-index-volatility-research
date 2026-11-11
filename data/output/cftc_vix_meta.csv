@@ -1,0 +1,9 @@
+﻿项目,值
+数据源,CFTC Public Reporting Environment (Socrata)
+数据集,6dca-aqww = Legacy - Futures Only
+合约,VIX FUTURES - CBOE FUTURES EXCHANGE
+行数,1120
+起始报告日,2004-07-27
+最新报告日,2026-11-03
+报告频率,每周二收盘，周五 15:30 ET 发布（有 3 天滞后）
+口径,非商业(Non-commercial)=投机/基金；商业(Commercial)=套保；Legacy 旧版分类
