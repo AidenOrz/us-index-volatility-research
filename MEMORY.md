@@ -26,6 +26,10 @@
 - **腾讯 `usVIX` 数据停在 2026-09-15**，看着像能用，实际过期两个月，已排除。
 - **CFTC Socrata 的 `$order` 含空格必须 quote**，否则 `URL can't contain control characters`。
 - **CFTC 有 4 个 Combined 数据集返回 403**「non-tabular tables」，只有 Futures Only 可查。
+- **东财 `push2his.eastmoney.com` 会对 Python urllib 持续断连**（`Remote end closed
+  without response`），重试 3 次全失败，走代理也没用；但同一台机器浏览器 fetch 正常，
+  `quote.eastmoney.com` 也正常。所以 Python 侧把东财排在 CBOE/Yahoo 之后当备用，
+  真正补指数靠 Yahoo（需代理 7897）。
 - **CFTC 列名 `noncomm_postions_spread_all` 少个 i**，是官方拼写错误，按正确拼写取列会 KeyError。
 
 ### CORS（决定 Web 端能力边界）
@@ -50,6 +54,15 @@
 - **桌面端截图会抓到旧帧**（DWM 合成延迟），验证布局用 Web 无头截图更可靠。
 - **pandas 3.0 移除了 `applymap`**，用 `.map`。
 - **Windows 写 JSON 必须 `encoding="utf-8"`**，否则中文乱码。
+
+### 补齐引擎的设计教训
+
+- **没有缺口时不要发请求**。最初漏了短路，数据已经完整还去逐个请求，
+  把「本来就不需要补」误报成「数据源失败」，用户看到 ok=false 会以为坏了。
+- **区分「源挂了」和「源没有这些日期」**。休市日（感恩节、圣诞节）任何源都补不上，
+  这不是失败。判据是「该源是否真的返回了数据」，不是「错误文案里有没有 timeout」。
+- **统计缺口要限定在该指数自身的有效区间内**。否则 DJI（1990 年才有数据）
+  会把 1962–1990 全算成缺口，得出 7202 天这种荒谬数字。
 
 ### 工具链
 

@@ -22,18 +22,28 @@ PROXY_CANDIDATES = ["http://127.0.0.1:7897", "http://127.0.0.1:7890",
 
 
 # ────────────────────────── 基础 HTTP ──────────────────────────
-def http_get(url, timeout=25, headers=None, proxy=None):
+def http_get(url, timeout=25, headers=None, proxy=None, retries=2):
+    """带重试的 GET。东财对高频请求会主动断连（Remote end closed without
+    response），重试一次通常就恢复，没必要直接判定为失败。"""
     h = {"User-Agent": UA, "Accept": "*/*"}
     if headers:
         h.update(headers)
-    req = urllib.request.Request(url, headers=h)
-    if proxy:
-        op = urllib.request.build_opener(
-            urllib.request.ProxyHandler({"http": proxy, "https": proxy}))
-    else:
-        op = urllib.request.build_opener()
-    with op.open(req, timeout=timeout) as r:
-        return r.read()
+    last = None
+    for attempt in range(retries + 1):
+        req = urllib.request.Request(url, headers=h)
+        if proxy:
+            op = urllib.request.build_opener(
+                urllib.request.ProxyHandler({"http": proxy, "https": proxy}))
+        else:
+            op = urllib.request.build_opener()
+        try:
+            with op.open(req, timeout=timeout) as r:
+                return r.read()
+        except Exception as e:
+            last = e
+            if attempt < retries:
+                time.sleep(0.8 * (attempt + 1))
+    raise last
 
 
 def http_get_json(url, timeout=25, headers=None, proxy=None):
@@ -346,17 +356,18 @@ def run(verbose=True, allow_proxy=True):
         cur = {d: v[col] for d, v in prices.items() if col in v}
         if not cur:
             continue
-        # 该补的日期：本地全部交易日中缺的，且 <= 本地最新日的（尾部靠日历推）
+        # 该补的日期：本地全部交易日中缺的
         missing = sorted(set(prices) - set(cur))
+        # 没有缺口就别去打扰任何数据源 —— 之前漏了这句，导致数据已经完整时
+        # 仍然逐个请求，并把「本来就不需要补」误报成「数据源失败」。
+        if not missing:
+            continue
         y_sym, em_id = IDX_MAP.get(col, (None, None))
         cand = None
-        for label, fn in [
-            ("CBOE", lambda c=col: src_cboe_full(c, proxy) if c in ("SPX", "RUT", "DJX", "OEX") else (_ for _ in ()).throw(RuntimeError("CBOE 无该代码"))),
-            ("Yahoo", lambda s=y_sym: src_yahoo(s, proxy) if (s and proxy) else (_ for _ in ()).throw(RuntimeError("Yahoo 不可用"))),
-            ("东财", lambda e=em_id: src_eastmoney(e, proxy) if e else (_ for _ in ()).throw(RuntimeError("东财无该代码"))),
-        ]:
-            pass
-        # 逐源尝试
+        # 逐源尝试。顺序有讲究：东财的 push2his 接口会对 urllib 持续断连
+        # （实测三次重试全失败），所以放到最后，优先用 CBOE 与 Yahoo。
+        source_errors = []
+        got_any = False
         for label in ("CBOE", "Yahoo", "东财"):
             try:
                 if label == "CBOE":
@@ -371,9 +382,10 @@ def run(verbose=True, allow_proxy=True):
                     if not em_id:
                         continue
                     got = src_eastmoney(em_id, proxy)
+                got_any = True  # 这个源确实返回了数据
                 merged, why = validate(cur, got, label, max_dev=0.02)
                 if why:
-                    report["errors"].append({"src": label, "item": col, "msg": why})
+                    source_errors.append({"src": label, "item": col, "msg": why})
                     continue
                 added = len(set(merged) - set(cur))
                 if added:
@@ -382,8 +394,24 @@ def run(verbose=True, allow_proxy=True):
                     log("    %-5s +%d 天（%s）" % (col, added, label))
                     break
             except Exception as e:
-                report["errors"].append({"src": label, "item": col, "msg": str(e)[:100]})
+                source_errors.append({"src": label, "item": col, "msg": str(e)[:100]})
                 continue
+        else:
+            # 所有源都没能补上。区分两种情况：
+            #   a) 数据源全挂 → 真失败，要报错
+            #   b) 源能访问但确实没有这些日期（休市/停牌）→ 不是失败，记下来即可
+            # 之前的实现把 (b) 也当成失败，导致「数据已经最全」时仍报 ok=false。
+            # 只在「该指数自身的有效区间内」统计补不上的缺口，
+            # 不能把上市之前的年份算成缺口（DJI 1990 年才有数据）。
+            _base = cand or cur
+            _first, _last = min(_base), max(_base)
+            still_missing = sorted(d for d in set(prices) - set(_base)
+                                   if _first <= d <= _last)
+            if got_any and still_missing:
+                # 源能用，但就是没有这些日期 → 休市/停牌，不是失败
+                report.setdefault("unfillable", {})[col] = len(still_missing)
+            elif not got_any:
+                report["errors"].extend(source_errors)
         if cand:
             for d, v in cand.items():
                 prices.setdefault(d, {})[col] = v

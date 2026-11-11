@@ -99,8 +99,17 @@ def main():
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         import fill_gaps
         rep = fill_gaps.run(verbose=True, allow_proxy=True)
-        if not rep.get("ok"):
-            print("  注意：有数据源失败，明细见上")
+        errs = rep.get("errors") or []
+        filled = rep.get("filled") or {}
+        n_filled = sum(v for k, v in filled.items() if k != "_indices")
+        n_idx = len(filled.get("_indices") or {})
+        if errs and (n_filled or n_idx):
+            print("  部分源失败（已有 %d 项波动率 + %d 个指数补齐成功，失败的项保持原值）"
+                  % (n_filled, n_idx))
+        elif errs and not n_filled and not n_idx:
+            print("  所有源都失败，数据未更新 —— app 会显示快照并弹窗提醒")
+        else:
+            print("  全部正常，无缺口")
     except Exception as e:
         print("  补齐引擎异常:", e)
         print("  回退到全量抓取模式")
