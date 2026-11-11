@@ -1,0 +1,37 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ── Flutter / Dart ──
+flutter_app/.dart_tool/
+flutter_app/.idea/
+flutter_app/*.iml
+flutter_app/build/
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/pubspec.lock.bak
+
+# Windows runner 的引擎缓存（261 MB，flutter pub get 会自动恢复）
+flutter_app/windows/flutter/ephemeral/
+
+# ── 临时文件 ──
+.tmp-*
+*.tmp
+*.tmpcheck
+
+# ── 编辑器 / 系统 ──
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── 交付包里的可执行产物 ──
+# Windows 包 26.8 MB，其中 20.3 MB 是 Flutter SDK 自带的 flutter_windows.dll。
+# 它可由 `flutter build windows --release` 完全重建，不入库。
+output/波动率看盘_Windows/
+
+# ── 无关目录 ──
+%SystemDrive%/
