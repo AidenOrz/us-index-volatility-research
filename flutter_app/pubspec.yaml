@@ -1,0 +1,35 @@
+name: vol_dashboard
+description: "波动率看盘 — 一屏读完的每日波动率面板"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/dashboard.json
+  fonts:
+    - family: AppSans
+      fonts:
+        - asset: assets/fonts/NotoSC.otf
+          weight: 400
+        - asset: assets/fonts/NotoSC-Bold.otf
+          weight: 700
+    - family: AppMono
+      fonts:
+        - asset: assets/fonts/Mono.ttf
+          weight: 400
+        - asset: assets/fonts/Mono-Bold.otf
+          weight: 700
