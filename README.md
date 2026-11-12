@@ -11,13 +11,21 @@
 | [VIX类指数买卖点判断专题.html](output/VIX类指数买卖点判断专题.html) | VIX 择时：U 型曲线、事件检验、策略回测 |
 | [波动率数据源尽调与新增指标.html](output/波动率数据源尽调与新增指标.html) | 四个站点实测 + COT 持仓 + 期限结构四斜率 |
 | [美股主要指数回测数据册.xlsx](output/美股主要指数回测数据册.xlsx) | 59 个工作表的完整数据 |
-| [波动率看盘_Windows/](output/波动率看盘_Windows) | Flutter 桌面应用 |
+| 波动率看盘 Windows 包 | Flutter 桌面应用，按需自行构建（见下） |
 
 ## 快速上手
 
-### 打开应用
+### 运行应用
 
-直接跑 `output/波动率看盘_Windows/vol_dashboard.exe`。
+Windows 包不入库（其中 20 MB 是 Flutter SDK 自带运行库，可完全重建），需要本地构建：
+
+```powershell
+cd flutter_app
+flutter pub get
+flutter build windows --release
+# 产物在 build\windows\x64\runner\Release\vol_dashboard.exe
+```
+
 启动会自动联网补当日数据，断网则显示打包快照并弹窗提示。
 
 改应用代码见 [flutter_app/README.md](flutter_app/README.md)。
