@@ -67,3 +67,10 @@ $py = "C:\Users\Lenovo\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python
 - Python 3.12（pandas / numpy / matplotlib / openpyxl / python-docx，**无 scipy、无 requests**）
 - Flutter 3.47.9（装在 `E:\flutter_dl\sdk\flutter`）
 - 网络代理常用端口 **7897**
+
+## 许可
+
+本项目采用 [GNU General Public License v3.0](LICENSE)（GPL-3.0）。
+
+你可以自由使用、修改和分发本项目，但衍生作品必须以相同许可开源。
+若需要不同的授权条款，请联系作者。

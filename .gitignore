@@ -13,6 +13,7 @@ flutter_app/build/
 flutter_app/.flutter-plugins-dependencies
 flutter_app/.packages
 flutter_app/pubspec.lock.bak
+flutter_app/.flutter_tool_state
 
 # Windows runner 的引擎缓存（261 MB，flutter pub get 会自动恢复）
 flutter_app/windows/flutter/ephemeral/
